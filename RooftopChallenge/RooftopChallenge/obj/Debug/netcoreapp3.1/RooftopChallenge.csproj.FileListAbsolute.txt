@@ -1,0 +1,14 @@
+C:\Users\German\Documents\GitHub\RooftopChallenge\RooftopChallenge\RooftopChallenge\bin\Debug\netcoreapp3.1\RooftopChallenge.exe
+C:\Users\German\Documents\GitHub\RooftopChallenge\RooftopChallenge\RooftopChallenge\bin\Debug\netcoreapp3.1\RooftopChallenge.deps.json
+C:\Users\German\Documents\GitHub\RooftopChallenge\RooftopChallenge\RooftopChallenge\bin\Debug\netcoreapp3.1\RooftopChallenge.runtimeconfig.json
+C:\Users\German\Documents\GitHub\RooftopChallenge\RooftopChallenge\RooftopChallenge\bin\Debug\netcoreapp3.1\RooftopChallenge.runtimeconfig.dev.json
+C:\Users\German\Documents\GitHub\RooftopChallenge\RooftopChallenge\RooftopChallenge\bin\Debug\netcoreapp3.1\RooftopChallenge.dll
+C:\Users\German\Documents\GitHub\RooftopChallenge\RooftopChallenge\RooftopChallenge\bin\Debug\netcoreapp3.1\RooftopChallenge.pdb
+C:\Users\German\Documents\GitHub\RooftopChallenge\RooftopChallenge\RooftopChallenge\obj\Debug\netcoreapp3.1\RooftopChallenge.csproj.AssemblyReference.cache
+C:\Users\German\Documents\GitHub\RooftopChallenge\RooftopChallenge\RooftopChallenge\obj\Debug\netcoreapp3.1\RooftopChallenge.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\German\Documents\GitHub\RooftopChallenge\RooftopChallenge\RooftopChallenge\obj\Debug\netcoreapp3.1\RooftopChallenge.AssemblyInfoInputs.cache
+C:\Users\German\Documents\GitHub\RooftopChallenge\RooftopChallenge\RooftopChallenge\obj\Debug\netcoreapp3.1\RooftopChallenge.AssemblyInfo.cs
+C:\Users\German\Documents\GitHub\RooftopChallenge\RooftopChallenge\RooftopChallenge\obj\Debug\netcoreapp3.1\RooftopChallenge.csproj.CoreCompileInputs.cache
+C:\Users\German\Documents\GitHub\RooftopChallenge\RooftopChallenge\RooftopChallenge\obj\Debug\netcoreapp3.1\RooftopChallenge.dll
+C:\Users\German\Documents\GitHub\RooftopChallenge\RooftopChallenge\RooftopChallenge\obj\Debug\netcoreapp3.1\RooftopChallenge.pdb
+C:\Users\German\Documents\GitHub\RooftopChallenge\RooftopChallenge\RooftopChallenge\obj\Debug\netcoreapp3.1\RooftopChallenge.genruntimeconfig.cache
