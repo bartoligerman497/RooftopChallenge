@@ -8,18 +8,6 @@ namespace RooftopChallenge
 
         public int[,] Matriz { get => matriz; set => matriz = value; }
 
-        public void Imprimir()
-        {
-            for (int f = 0; f < Matriz.GetLength(0); f++)
-            {
-                for (int c = 0; c < Matriz.GetLength(1); c++)
-                {
-                    Console.Write(Matriz[f, c] + " ");
-                }
-                Console.WriteLine();
-            }
-        }
-
         public void Cargar()
         {
             Console.WriteLine("Hola Rooftopper");
@@ -61,6 +49,18 @@ namespace RooftopChallenge
                     linea = Console.ReadLine();
                     Matriz[f, c] = int.Parse(linea);
                 }
+            }
+        }
+
+        public void Imprimir()
+        {
+            for (int f = 0; f < Matriz.GetLength(0); f++)
+            {
+                for (int c = 0; c < Matriz.GetLength(1); c++)
+                {
+                    Console.Write(Matriz[f, c] + " ");
+                }
+                Console.WriteLine();
             }
         }
 
