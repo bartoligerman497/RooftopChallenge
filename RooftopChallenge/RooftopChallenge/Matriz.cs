@@ -14,12 +14,12 @@ namespace RooftopChallenge
 
             Console.WriteLine("");
 
-            Console.WriteLine("Ingrese la cantidad de filas que va a tener la matriz: ");
+            Console.Write("Ingrese la cantidad de filas que va a tener la matriz: ");
             int cantidadFilas = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("");
 
-            Console.WriteLine("Ingrese la cantidad de columnas que va a tener la matriz: ");
+            Console.Write("Ingrese la cantidad de columnas que va a tener la matriz: ");
             int cantidadColumnas = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("");
@@ -35,14 +35,27 @@ namespace RooftopChallenge
             {
                 for (int columna = 0; columna < Matriz.GetLength(1); columna++)
                 {
-                    Console.Write("Ingrese un número:");
+                    int fila1 = fila + 1;
+                    int columna1 = columna + 1;
+                    Console.Write("Fila: " + fila1 + " \nColumna: " + columna1 + " \n\nIngrese el número: ");
                     Matriz[fila, columna] = Convert.ToInt32(Console.ReadLine());
+                    Imprimir();
                 }
             }
+
+            Console.WriteLine("");
+        }
+
+        public void Ordenar()
+        {
         }
 
         public void Imprimir()
         {
+            //Console.WriteLine("***************************************************************************");
+            Console.WriteLine("Matriz");
+            Console.WriteLine("");
+
             for (int fila = 0; fila < Matriz.GetLength(0); fila++)
             {
                 for (int columna = 0; columna < Matriz.GetLength(1); columna++)
@@ -57,6 +70,7 @@ namespace RooftopChallenge
         {
             MatrizClase matriz = new MatrizClase();
             matriz.Cargar();
+            matriz.Ordenar();
             matriz.Imprimir();
 
             // desea salir o quiere ingresar otra
