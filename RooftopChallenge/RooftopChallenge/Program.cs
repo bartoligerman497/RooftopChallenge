@@ -31,34 +31,23 @@ namespace RooftopChallenge
 
             Console.WriteLine("");
 
-            Console.Write("Cuantas filas tiene la matriz:");
-            string linea;
-            linea = Console.ReadLine();
-            int filas = int.Parse(linea);
-            Console.Write("Cuantas columnas tiene la matriz:");
-            linea = Console.ReadLine();
-            int columnas = int.Parse(linea);
-
-            Matriz = new int[filas, columnas];
-
-            for (int f = 0; f < Matriz.GetLength(0); f++)
+            for (int fila = 0; fila < Matriz.GetLength(0); fila++)
             {
-                for (int c = 0; c < Matriz.GetLength(1); c++)
+                for (int columna = 0; columna < Matriz.GetLength(1); columna++)
                 {
                     Console.Write("Ingrese un número:");
-                    linea = Console.ReadLine();
-                    Matriz[f, c] = int.Parse(linea);
+                    Matriz[fila, columna] = Convert.ToInt32(Console.ReadLine());
                 }
             }
         }
 
         public void Imprimir()
         {
-            for (int f = 0; f < Matriz.GetLength(0); f++)
+            for (int fila = 0; fila < Matriz.GetLength(0); fila++)
             {
-                for (int c = 0; c < Matriz.GetLength(1); c++)
+                for (int columna = 0; columna < Matriz.GetLength(1); columna++)
                 {
-                    Console.Write(Matriz[f, c] + " ");
+                    Console.Write(Matriz[fila, columna] + " ");
                 }
                 Console.WriteLine();
             }
@@ -69,6 +58,10 @@ namespace RooftopChallenge
             MatrizClase matriz = new MatrizClase();
             matriz.Cargar();
             matriz.Imprimir();
+
+            // desea salir o quiere ingresar otra
+
+            //saludos
         }
     }
 }
