@@ -48,6 +48,21 @@ namespace RooftopChallenge
 
         public void Ordenar()
         {
+            //int y = matriz.GetLength(0), x = matriz[0] - 1;
+            //int[] diagonal = new int[y];
+            //for (int i = 2 - y; i < x; i++)
+            //{
+            //    int k = 0;
+            //    for (int j = 0; j < y; j++)
+            //        if (i + j >= 0 && i + j <= x)
+            //            diag[k++] = matriz[j][i + j];
+            //    Arrays.sort(diag, 0, k);
+            //    k = 0;
+            //    for (int j = 0; j < y; j++)
+            //        if (i + j >= 0 && i + j <= x)
+            //            M[j][i + j] = diag[k++];
+            //}
+            //return M;
         }
 
         public void Imprimir()
@@ -60,7 +75,14 @@ namespace RooftopChallenge
             {
                 for (int columna = 0; columna < Matriz.GetLength(1); columna++)
                 {
-                    Console.Write(Matriz[fila, columna] + " ");
+                    if (Matriz[fila, columna] != 00)
+                    {
+                        Console.Write(Matriz[fila, columna] + " ");
+                    }
+                    else
+                    {
+                        Console.Write("**" + " ");
+                    }
                 }
                 Console.WriteLine();
             }
