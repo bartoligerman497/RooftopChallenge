@@ -39,6 +39,8 @@ namespace RooftopChallenge
                     int columna1 = columna + 1;
                     Console.Write("Fila: " + fila1 + " \nColumna: " + columna1 + " \n\nIngrese el número: ");
                     Matriz[fila, columna] = Convert.ToInt32(Console.ReadLine());
+                    Console.WriteLine("");
+
                     Imprimir();
                 }
             }
@@ -48,21 +50,24 @@ namespace RooftopChallenge
 
         public void Ordenar()
         {
-            //int y = matriz.GetLength(0), x = matriz[0] - 1;
-            //int[] diagonal = new int[y];
+            //int y = Matriz.length, x = M[0].length - 1;
+            //int[] diag = new int[y];
             //for (int i = 2 - y; i < x; i++)
             //{
             //    int k = 0;
             //    for (int j = 0; j < y; j++)
             //        if (i + j >= 0 && i + j <= x)
-            //            diag[k++] = matriz[j][i + j];
+            //            diag[k++] = M[j][i + j];
             //    Arrays.sort(diag, 0, k);
             //    k = 0;
             //    for (int j = 0; j < y; j++)
             //        if (i + j >= 0 && i + j <= x)
-            //            M[j][i + j] = diag[k++];
+            //            Matriz[j][i + j] = diag[k++];
             //}
-            //return M;
+
+            //if ()
+            //{
+            //}
         }
 
         public void Imprimir()
